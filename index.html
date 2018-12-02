@@ -1,1 +1,36 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+
+
+<body>
+
+<p>Teste</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+var http = new XMLHttpRequest();
+
+http.onload = function(){
+
+if(true){
+
+var doc = JSON.parse(this.responseText);
+
+var p = document.getElementsByTagName('p')[0];
+
+p.textContent = doc.motorista[0].nome;
+
+
+}};
+
+http.open('GET', 'data/novo.json', true);
+http.send(null);
+
+</script>
+</body>
+</html>
