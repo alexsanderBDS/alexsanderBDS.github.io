@@ -1,0 +1,18 @@
+{
+  "motorista": [
+    {
+      "codigo": 201,
+      "nome": "João Taveira",
+	  "carregamento": 761328
+    },
+    {
+      "codigo": 102,
+      "nome": "Junior Vinicius",
+	  "carregamento": 784132    
+	 },
+    {
+      "codigo": 321,
+      "nome": "Maria Jose",
+	  "carregamento": 751459    }
+  ]
+}
